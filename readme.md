@@ -5,6 +5,8 @@
 
 ## clocktime
 
+desktop app built with electronjs, cross-platform compatibility
+
 ### features:
 * displays time and date
 * displays btc price and block number
