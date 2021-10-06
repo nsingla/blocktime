@@ -15,4 +15,10 @@ desktop app built with electronjs, cross-platform compatibility
 
 
 ### installation and settings
-* TBD
+* packaged installers: TBD
+* run with npm and global electronjs:
+```
+sudo npm install -g electron --unsafe-perm=true
+cd src
+npm start
+```
