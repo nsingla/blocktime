@@ -3,7 +3,7 @@
 
 <br>
 
-## clocktime
+## ₿locktime
 
 desktop app built with electronjs, cross-platform compatibility
 
