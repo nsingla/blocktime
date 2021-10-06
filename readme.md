@@ -3,11 +3,14 @@
 
 <br>
 
-### clocktime
+## clocktime
 
-* Displays time, date, btc price, block number, hashrate and next halving date(approximation with 10min. per block)
-* Hourly chime
+### features:
+* Displays time and date
+* Displays btc price and block number
+* Displays hashrate and next halving date(approximation with 10min. per block)
+* Hourly chime between 8am and 11p
 
 
-### installation
+### installation and settings
 * TBD
