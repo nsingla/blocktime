@@ -2,7 +2,9 @@ var justPlayed = false;
 
 
 function playChime(){
-    var audio = new Audio('./assets/chime.wav');
+    const path = window.require('path');
+    const file = path.join(__dirname, 'assets', 'chime.wav');
+    var audio = new Audio(file);
     audio.volume = 0.4;
     audio.play();
 }

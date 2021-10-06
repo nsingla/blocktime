@@ -9,16 +9,16 @@ function createWindow(){
         resizable: false,
         frame: true,
         transparent: false,
-        webPreferences: {nodeIntegration: true},
+        webPreferences: {nodeIntegration: true, contextIsolation: false},
         alwaysOnTop: true,
         icon: path.join(__dirname, 'assets', 'favicon.svg')
     })
     win.removeMenu();
     win.loadFile(path.join(__dirname, 'index.html'));
-    win.on('closed', () => {win = null;})
+    win.on('closed', () => {win = null;});
     // win.webContents.openDevTools();
 }
 
 app.on('ready', createWindow);
-app.on('window-all-closed', () => {app.quit();})
+app.on('window-all-closed', () => {app.quit();});
 
