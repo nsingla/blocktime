@@ -11,7 +11,7 @@ function createWindow(){
         transparent: false,
         webPreferences: {nodeIntegration: true},
         alwaysOnTop: true,
-        icon: __dirname + '/assets/favicon.svg'
+        icon: path.join(__dirname, 'assets', 'favicon.svg')
     })
     win.removeMenu();
     win.loadFile(path.join(__dirname, 'index.html'));
