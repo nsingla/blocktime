@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Yomogi');
 
 
 html, body {
@@ -29,6 +30,13 @@ hr {
     color: yellowgreen;
 }
 
+.date {
+    font-family: 'Yomogi';
+    font-size: 15;
+    color: greenyellow;
+}
+
+
 .btcpx {
     font-family: 'Bungee Shade';
     font-size: 48px;
@@ -46,4 +54,3 @@ hr {
     font-size: 14px;
     color: lightgray;
 }
-

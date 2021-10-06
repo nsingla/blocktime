@@ -4,6 +4,7 @@ function getTime() {
     let hour = document.getElementById('hour_id');
     let minute = document.getElementById('minute_id');
     let pmLabel = document.getElementById('pmlbl_id')
+    let dateLabel = document.getElementById('date_id')
 
     let date = new Date();
     var hours = date.getHours();
@@ -19,6 +20,7 @@ function getTime() {
     hour.innerHTML = hours;
     minute.innerHTML = minutes;
     pmLabel.innerHTML = pmText;
+    dateLabel.innerHTML = date.toDateString();
 
     if (minutes == 0 && justPlayed == false && hours >= 8){
         var audio = new Audio('assets/chime.wav');
