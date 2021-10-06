@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: center;
+    text-align: center;
+    background-image: linear-gradient(#232526, #414345);
+}
+
+hr {
+    height: 30px; 
+    border-style: solid; 
+    border-color: greenyellow; 
+    border-width: 5px 0 0 0; 
+    border-radius: 20px; 
+}
+  
+
+.clock {
+    font-family: 'Monoton';
+    font-size: 55px;
+    color: yellowgreen;
+}
+
+.btcpx {
+    font-family: 'Bungee Shade';
+    font-size: 48px;
+    color: #f2a900;
+}
+
+.blocknum {
+    font-family: 'Press Start 2P';
+    font-size: 16px;
+    color: #f2a900;
+}
+
+.stats {
+    font-family: 'Kalam';
+    font-size: 14px;
+    color: lightgray;
+}
+
