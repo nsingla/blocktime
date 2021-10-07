@@ -33,8 +33,10 @@ function getTime() {
     var minutes = date.getMinutes(); 
     var pmText = 'AM';
     if (hours > 12){
-        pmText = 'PM';
         hours = hours - 12;
+    }
+    if (hours >= 12){
+        pmText = 'PM';
     }
     hoursText = ("00" + hours).slice(-2);
     minutesText = ("00" + minutes).slice(-2);
