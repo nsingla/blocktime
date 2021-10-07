@@ -1,2 +1,5 @@
-src/node_modules
+**/node_modules
 .vscode
+**/*.mp3
+**/_archive
+**/_debug*

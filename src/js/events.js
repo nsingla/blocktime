@@ -9,6 +9,10 @@ function playMusic(isToggle){
     let label = document.getElementById('musicTitle_id');
     if (isToggle){
         var random_file = files[Math.floor(Math.random() * files.length)];
+        if (!random_file.includes(".")){
+            playMusic(true);
+            return;
+        }
         const file = path.join(__dirname, 'assets', 'music_list', random_file);
         audio = new Audio(file);
         audio.addEventListener('ended', function() {playMusic(true);});
