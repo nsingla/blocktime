@@ -18,8 +18,3 @@ desktop app built with electronjs, cross-platform compatibility
 
 ### installation:
 [http://blocktime.download](http://blocktime.download)
-* Download AppImage or deb file for linux from latest release:
-* Set AppImage as executable in properties to launch
-```
-sudo dpkg -i blocktime_0.0.1_amd64.deb
-```
