@@ -18,11 +18,11 @@ html, body {
 hr {
     height: 30px; 
     border-style: solid; 
-    border-color: greenyellow; 
+    border-color: yellowgreen; 
     border-width: 5px 0 0 0; 
     border-radius: 20px; 
 }
-  
+
 
 .clock {
     font-family: 'Monoton';
