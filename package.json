@@ -1,0 +1,58 @@
+{
+  "name": "blocktime",
+  "version": "0.0.1",
+  "license":"MIT",
+  "description": "clock and btc stats app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm install && electron .",
+    "postinstall": "electron-builder install-app-deps",
+    "rebuild": "electron-rebuild",
+    "clean": "rimraf dist && mkdirp dist",
+    "build": "electron-builder --dir",
+    "dist": "electron-builder" },
+    "author": "nsingla <test@test123.com>",
+    "build": {
+      "appId": "com.blocktime.app",
+      "dmg": {
+        "contents": [
+          {
+            "x": 110,
+            "y": 150
+          },
+          {
+            "x": 240,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      },
+      "linux": {
+        "target": [
+          "AppImage",
+          "deb"
+        ],
+        "icon": "build/icon.svg"
+      },
+      "win": {
+        "target": ["nsis", "msi"],
+        "icon": "build/icon.svg"
+      },
+      "mac": {
+        "target": "dmg",
+        "icon": "img/icon.icns",
+        "category": "public.app-category.utilities"
+      }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest",
+    "electron-rebuild": "latest",
+    "mkdirp": "latest",
+    "npm-run-all": "latest",
+    "rimraf": "latest",
+    "standard": "latest"
+  }
+}

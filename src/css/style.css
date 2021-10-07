@@ -66,5 +66,6 @@ hr {
     border: none;
     outline: none;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
+    vertical-align: top;
 }

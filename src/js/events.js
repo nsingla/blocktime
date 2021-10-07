@@ -7,6 +7,8 @@ audio.volume = 0.6;
 
 function playMusic(isToggle){
     let label = document.getElementById('musicTitle_id');
+    label.style.color = "lightgray";
+    label.style.fontSize = "9px";
     if (isToggle){
         var random_file = files[Math.floor(Math.random() * files.length)];
         if (!random_file.includes(".")){
