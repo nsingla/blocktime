@@ -3,3 +3,4 @@
 **/*.mp3
 **/_archive
 **/_debug*
+**/dist
