@@ -32,12 +32,12 @@ function getTime() {
     var hours = date.getHours();
     var minutes = date.getMinutes(); 
     var pmText = 'AM';
-    if (hours > 12){
-        hours = hours - 12;
-    }
     if (hours >= 12){
         pmText = 'PM';
     }
+    if (hours > 12){
+        hours = hours - 12;
+    }    
     hoursText = ("00" + hours).slice(-2);
     minutesText = ("00" + minutes).slice(-2);
 
