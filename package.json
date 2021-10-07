@@ -1,6 +1,6 @@
 {
   "name": "blocktime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license":"MIT",
   "description": "clock and btc stats app",
   "main": "src/index.js",

@@ -16,7 +16,8 @@ desktop app built with electronjs, cross-platform compatibility
 * toggle switch to play music files (plays in shuffle loop mode from music_list folder)
 
 
-### installation
+### installation:
+[http://blocktime.download](http://blocktime.download)
 * Download AppImage or deb file for linux from latest release:
 * Set AppImage as executable in properties to launch
 ```
