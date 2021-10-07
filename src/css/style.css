@@ -54,3 +54,17 @@ hr {
     font-size: 14px;
     color: lightgray;
 }
+
+
+.musicTitle {
+    resize: none;
+    width: 180px;
+    height: 9px;
+    background-color: transparent;
+    font-size: 9px;
+    color: lightgray;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+}
